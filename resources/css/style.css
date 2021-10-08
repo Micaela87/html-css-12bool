@@ -4,13 +4,26 @@
     box-sizing: border-box;
 }
 
+.container-large {
+    margin-bottom: 10px;
+}
+
 .row {
     height: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 [class*="col"] {
     border: 1px solid white;
     background-color: #006cfa;
     height: 100%;
+}
+
+.row.col-xs-6 {
+    padding: 5px;
+}
+
+.row.col-xs-6>div {
+    background-color: green;
+    border: 1px solid #006cfa;
 }
